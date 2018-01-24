@@ -1,0 +1,22 @@
+{
+  "name": "twitter-tweet",
+  "version": "1.0.0",
+  "description": "This is a node based Twitter bot that will tweet for me.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/craig1123/node-twitter-tweet.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/craig1123/node-twitter-tweet/issues"
+  },
+  "homepage": "https://github.com/craig1123/node-twitter-tweet#readme",
+  "dependencies": {
+    "twit": "^2.2.9"
+  }
+}

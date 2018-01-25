@@ -2,6 +2,4 @@ var hard = [
 
 ];
 
-module.exports {
-  hard
-}
+module.exports = hard;

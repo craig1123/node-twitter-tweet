@@ -1,18 +1,29 @@
 var twit = require('twit');
+var twitterAutofollowBot = require('twitter-autofollow-bot');
 var config = require('./config.js');
 var challenges = require('./challenges');
 var sendEmailToMyself = require('./emailCtrl');
 
 var Twitter = new twit(config);
-
 var tick = 0
+var stream = Twitter.stream('user');
+
+stream.on('follow', followed)
+// follow those who followed me
+function followed(e) {
+  Twitter.post('friendships/create', {
+    'screen_name': e.source.screen_name,
+    'follow': true
+  });
+};
 
 function post() {
   if (tick > challenges.length - 1) {
     tick = 0;
   }
   var status = challenges[tick];
-  if (status.length > 280) {
+  status += "\n#365daysofcode";
+  if (status.length > 280 || status.length < 5) {
     var options = {
       length: status.length,
       number: tick

@@ -1,5 +1,4 @@
 var twit = require('twit');
-var twitterAutofollowBot = require('twitter-autofollow-bot');
 var challenges = require('./challenges');
 var sendEmailToMyself = require('./emailCtrl');
 

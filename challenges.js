@@ -1,5 +1,5 @@
 module.exports = [
-  "Write a function that takes the name of a major scale and the solfège name of a note, and returns the corresponding note in that scale.\n\nE.g. note('C', 'Re') -> 'D'; note('A#', 'Fa') -> 'D#'",
+  "Write a function that takes the name of a major scale and the solfège name of a note, and returns the corresponding note in that scale.\n\nE.g. note('C', 'Re') --> 'D'\nnote('A#', 'Fa') --> 'D#'",
   "Create a function that accepts a string as an argument and validates whether the vowels (a,e,i,o,u) and consonants are in alternate order.\n\nE.g. isAlt('amazon') -> true",
   "Create a program that will allow you to enter events organizable by hour. There must be menu options of some form, and you must be able to easily edit, add, and delete events without directly changing the source code.",
   "Make a function that returns the longest word in a sentence.\nE.g. 'This is my sentence' --> sentence",

@@ -1,3 +1,9 @@
+/*
+  NOTE: Each line is a day of the year. array[0] is Jan 1, array[31] is Feb. 1
+  If we ever have more challenges than number of days in a year,
+  we'll make challenges2018.js, challenges2019.js, etc.
+*/
+
 module.exports = [
   "",
   "",
@@ -46,7 +52,7 @@ module.exports = [
   "Find the smallest positive number that is evenly divisible by all of the numbers from 1 to 20",
   "A palindrome is a word that can be interpreted the same way in reverse order.\nCreate a function that can detects the longest palindrome.\n\nE.g 'I like racecars that go fast' --> 7",
   "Find the difference between the sum of the squares and the square of the sum of the first one hundred integers.\n\nE.g (first 10 integers). 1^2 + 2^2 + ... + 10^2 = 385;\n(1 + 2 + ... + 10)^2 = 552 = 3025\n3025 − 385 = 2640.",
-  "Write a method, that gets an array of integer-numbers and return an array of the averages of each integer-number and his follower, if there is one.\n\nE.g. [ 1, 3, 5, 1, -10] --> [ 2, 4, 3, -4.5]",
+  "Write a method that gets an array of integer-numbers and return an array of the averages of each integer-number and his follower, if there is one.\n\nE.g. [ 1, 3, 5, 1, -10] --> [ 2, 4, 3, -4.5]",
   "You are given a string of numbers between 0-9.\nFind the average of these numbers and return it as a whole number written out as a string.\n\nE.g. 'zero nine five two' --> 'four'.",
   "Create the classic pascal's triangle. Your function will be passed the depth of the triangle and you code has to return the corresponding pascal triangle upto that depth.\n\nE.g. pascal(5) --> [[1],[1,1],[1,2,1],[1,3,3,1],[1,4,6,4,1]]",
   "Write a function that takes CamelCase string and returns the string in snake_case notation.\n\nE.g. 'MoviesAndBooks' --> 'movies_and_books'",

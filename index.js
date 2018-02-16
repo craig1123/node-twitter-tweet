@@ -41,8 +41,8 @@ function post() {
   status += "\n#365daysofcode";
   if (status.length > 280 || status.length < 5) {
     var options = {
-      length: status.length,
-      number: tick
+      number: status.length,
+      dayOfYear: date.getDOY() - 1
     };
     sendEmailToMyself(options);
   } else {

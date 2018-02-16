@@ -13,7 +13,7 @@ var sendEmailToMyself = function(options) {
     from: process.env.USER,
     to: process.env.USER,
     subject: 'Daily Code Challenge tweet was options.length characters',
-    text: 'The tweet was ' + options.length + ' characters long. Go look at the number ' + options.number + '.' +
+    text: 'The tweet was ' + options.number + ' characters long. Go look at the number ' + options.dayOfYear + '.' +
     '\n\nThen go to https://twitter.com/365daysofcode and write a new tweet'
   }, function(error){
     if (error) {

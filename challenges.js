@@ -63,7 +63,7 @@ module.exports = [
   "Move the first letter of each word to the end of it, then add 'ay' to the end of the word. Leave punctuation marks untouched.\n\nE.g. 'Pig latin is cool' --> 'igPay atinlay siay oolcay'",
   "Given a string, replace every letter with its position in the alphabet; 'a' being 1, 'b' being 2, etc.\n\nE.g. 'The sunset sets at twelve o' clock.' -->\n'20 8 5 19 21 14 19 5 20 19 5 20 19 1 20 20 23 5 12 22 5 15 3 12 15 3 11'",
   "Your mission today is to write a unique identifier (uuid) generator.\n\nOutput E.g. 'bf7348be-e4e9-493a-b66e-25d827230905'",
-  "Your challenge today is to write a program that can find the amount of anagrams within a .txt file.\n\nE.g. 'snap' would be an anagram of 'pans', and 'skate' would be an anagram of 'stake'.",
+  "Your challenge today is to write a program that can find the amount of anagrams within a sentence. 'snap' would be an anagram of 'pans'\n\nE.g. Bristly birds steal the least stale tales of Tesla that are written on a slate stela (stone slab). --> ???",
   "Write a program that can translate Morse code in the format of ...---...\nA space and a slash will be placed between words. ..- / --.- ",
   "There is a mathematical pyramid with the following pattern:\n1\n11\n21\n1211\n111221\n312211\nYou must write a program to calculate up to the 40th line of this pyramid.",
   "Write a function that computes the day of the week. It'll take three arguments: day, month, and  year.\n\nE.g. ('27', 'January', '2018') --> 'Saturday'",

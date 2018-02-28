@@ -8,15 +8,6 @@ var Twitter = new twit({
   access_token: process.env.ACCESS_TOKEN,
   access_token_secret: process.env.ACCESS_TOKEN_SECRET
 });
-var stream = Twitter.stream('user');
-stream.on('follow', followed) // follow those who followed me
-
-function followed(e) {
-  Twitter.post('friendships/create', {
-    'screen_name': e.source.screen_name,
-    'follow': true
-  });
-};
 
 Date.prototype.isLeapYear = function() {
   var year = this.getFullYear();
@@ -57,6 +48,3 @@ function post() {
 
 // post a tweet as soon as program is running...
 post();
-
-// post a tweet every day
-setInterval(post, 86400000);

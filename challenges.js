@@ -64,7 +64,7 @@ module.exports = [
   "Given a string, replace every letter with its position in the alphabet; 'a' being 1, 'b' being 2, etc.\n\nE.g. 'The sunset sets at twelve o' clock.' -->\n'20 8 5 19 21 14 19 5 20 19 5 20 19 1 20 20 23 5 12 22 5 15 3 12 15 3 11'",
   "Your mission today is to write a unique identifier (uuid) generator.\n\nOutput E.g. 'bf7348be-e4e9-493a-b66e-25d827230905'",
   "Your challenge today is to write a program that can find the amount of anagrams within a sentence. 'snap' would be an anagram of 'pans'\n\nE.g. Bristly birds steal the least stale tales of Tesla that are written on a slate stela (stone slab). --> ???",
-  "Write a program that can translate Morse code in the format of ...---...\nA space and a slash will be placed between words. ..- / --.- ",
+  "Write a program that can translate Morse code in the format of ...---...\n\nA space and a slash will be placed between words. ..- / --.- ",
   "There is a mathematical pyramid with the following pattern:\n1\n11\n21\n1211\n111221\n312211\nYou must write a program to calculate up to the 40th line of this pyramid.",
   "Write a function that computes the day of the week. It'll take three arguments: day, month, and  year.\n\nE.g. ('27', 'January', '2018') --> 'Saturday'",
   "An 'upside up' number is a number that reads the same when it is rotated 180°. 689 and 1961 are upside up numbers.\n\nCount the number of upside up numbers less than ten thousand. 2 and 5 are considered 'upside up' numbers.",

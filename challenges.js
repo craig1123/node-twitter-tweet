@@ -130,4 +130,5 @@ module.exports = [
   "Your goal today is to read a string of Braille characters (using standard English Braille) and print off the word in standard English letters.\n",
   "Write a program that outputs the first recurring character in a string.\n\nE.g. ABCDEBC --> B",
   "A pangram or holoalphabetic sentence for a given alphabet is a sentence using every letter of the alphabet at least once.\n\nWrite a program that takes a long sentence tells whether it is a pangram or not.",
+  "Your goal today is to find the highest score for a blackjack hand given as strings in an array (example: ['A','K'] or ['7', '9']).  Remember aces can either score 1 or 11."
 ];

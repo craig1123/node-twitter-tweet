@@ -28,7 +28,7 @@ module.exports = [
   "",
   "",
   "",
-  "",
+  "Your goal today is to find the highest score for a blackjack hand given as strings in an array (example: ['A','K'] or ['7', '9']).  Remember aces can either score 1 or 11",
   "Take a string of words and reverse each word. Bonus points if you don't touch punctuation.\n\nExamples:\nHello World -> olleH dlroW\nThis is a string. -> sihT si a gnirts.",
   "If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23.\nFind the sum of all the multiples of 3 or 5 below 1000",
   "Suppose you have a deck of cards. You can perfectly shuffle that list by cutting it at the halfway point, then interleaving the two halves by alternating back and forth between the cards.\n\nE.g. [1 2 3 4 5 6 7 8 9 10] ---> [6 1 7 2 8 3 9 4 10 5]",

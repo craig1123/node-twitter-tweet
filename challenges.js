@@ -131,5 +131,12 @@ module.exports = [
   "Write a program that outputs the first recurring character in a string.\n\nE.g. ABCDEBC --> B",
   "A pangram or holoalphabetic sentence for a given alphabet is a sentence using every letter of the alphabet at least once.\n\nWrite a program that takes a long sentence tells whether it is a pangram or not.",
   "Your goal today is to find the highest score for a blackjack hand given as strings in an array (example: ['A','K'] or ['7', '9']).  Remember aces can either score 1 or 11.",
+  "Using the HTML Canvas objects, count the number of red,green,blue pixels in an image",
+  "Create a function that will pretty print a array with arrays (a.k.a 2D array, a Matrix)",
+  "Create a function that will take 2 matrices and add them together. Extra points for validation!",
+  "Create a function that will take 2 matrices and multiply them. Extra points if you can do 1x3 x 3x3 matrix math!",
+  "Create a function that will draw a letters on a HTML Canvas object",
+  "Create a function that will replace a color inside a HTML Canvas object. Bonus points if you can demonstrate it with an image loaded into canvas",
+  "Create a 20x20 random numbers and find the largest sum of adjacent numbers (up, down, left, right, or diagonally)",
   "Given a date string, write the long date with the correct Ordinal indicator(-st, -nd, -rd, -th). \n\nE.g. 2015-03-25 --> March 25th, 2015  (extra credit if you don't use a library like moment.js)"
 ];

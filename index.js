@@ -28,7 +28,15 @@ Date.prototype.getDOY = function() {
 function post() {
   var date = new Date();
   var status = challenges[date.getDOY() - 1];
-  status += "\n#365daysofcode";
+
+  // No more challenges
+  if (status) {
+      status += "\n#365daysofcode";
+  } else {
+      status = "There are no more challenges available. Please make a Pull Request Here: https://github.com/craig1123/node-twitter-tweet/blob/master/challenges.js"
+  }
+
+  // Long Tweets won't go to Twitter
   if (status.length > 280 || status.length < 5) {
     var options = {
       number: status.length,
@@ -46,5 +54,5 @@ function post() {
   }
 }
 
-// post a tweet as soon as program is running...
+// post a tweet
 post();

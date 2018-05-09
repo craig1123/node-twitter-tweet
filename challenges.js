@@ -1,7 +1,22 @@
 /*
-  NOTE: Each line is a day of the year. array[0] is Jan 1, array[31] is Feb. 1
-  If we ever have more challenges than number of days in a year,
-  we'll make challenges2018.js, challenges2019.js, etc.
+  NOTE: HOW TO ADD CHALLENGES
+  ---------------------------
+
+  1. Find a programming challenge. Good places to look:
+    * https://www.reddit.com/r/dailyprogrammer/wiki/challenges
+    * https://www.codewars.com/
+    * https://medium.com/@programmertoni/1000-hours-of-coding-challenges-in-a-year-eb8dc4f3de41
+    * Make your own!
+
+  2. Add your challenge to the BOTTOM of the array.
+    * Each line is a day of the year. array[0] is Jan 1, array[31] is Feb. 1
+    * If we ever have more challenges than number of days in a year, we'll make challenges2018.js, challenges2019.js, etc.
+
+  3. Follow the requirements below:
+    * The challenge has to be something that can be programmed.
+    * Inlcude an example solution for clarification
+    * Make sure the text is no more than 265 characters long (as I append #365daysofcode to the end).
+      * Twitter won't accept it and I'll get an email saying that the string is too long.
 */
 
 module.exports = [
@@ -137,5 +152,5 @@ module.exports = [
   "Create a function that will take 2 matrices and multiply them. Extra points if you can do 1x3 x 3x3 matrix math!",
   "Create a function that will draw a letters on a HTML Canvas object",
   "Create a function that will replace a color inside a HTML Canvas object. Bonus points if you can demonstrate it with an image loaded into canvas",
-  "Create a 20x20 random numbers and find the largest sum of adjacent numbers (up, down, left, right, or diagonally)", 
+  "Create a 20x20 random numbers and find the largest sum of adjacent numbers (up, down, left, right, or diagonally)",
 ];

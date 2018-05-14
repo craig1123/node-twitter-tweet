@@ -138,5 +138,8 @@ module.exports = [
   "Create a function that will draw a letters on a HTML Canvas object",
   "Create a function that will replace a color inside a HTML Canvas object. Bonus points if you can demonstrate it with an image loaded into canvas",
   "Create a 20x20 random numbers and find the largest sum of adjacent numbers (up, down, left, right, or diagonally)",
-  "Given a date string, write the long date with the correct Ordinal indicator(-st, -nd, -rd, -th). \n\nE.g. 2015-03-25 --> March 25th, 2015  (extra credit if you don't use a library like moment.js)"
+  "Given a date string, write the long date with the correct Ordinal indicator(-st, -nd, -rd, -th). \n\nE.g. 2015-03-25 --> March 25th, 2015  (extra credit if you don't use a library like moment.js)",
+  "Return the number (count) of each vowel in the given string. We will consider a, e, i, o, and u as vowels for this challenge. The input string may contain upper and lower case letters, spaces and punctuation.",
+  "In DNA strings, symbols 'A' and 'T' are complements of each other, as 'C' and 'G'. Create a function that is given one side of the DNA as a string and returns the other complementary side.",
+  "Given an array, find the int that appears an odd number of times. There will always be only one integer that appears an odd number of times. \n\nE.g. [20,1,1,2,2,3,3,5,5,4,20,4,5] should return the int 5)",
 ];

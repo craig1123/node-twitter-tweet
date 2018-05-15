@@ -166,7 +166,7 @@ module.exports = [
   "Connect to a web server using POST using raw sockets (https://httpbin.org/ is a good site to test on)",
   "Create two services that talk to eachother over raw sockets",
   "Create a simple XML parser that can show the structure of the document, i.e. <xml><test /></xml> will output xml\n\ttest",
-  "Create a simple XML parser that can find the attributes of elements, i.e. <xml><test a=\"123\"></xml> will output \"a=123 on test\",
+  "Create a simple XML parser that can find the attributes of elements, i.e. <xml><test a=\'123\'></xml> will output \'a=123 on test\ ",
   "Create a method that can find all DOM elements with a certain id (don't resuse document.querySelector!)",
   "Create a method that can find all DOM elements with a certain class (don't resuse document.querySelector!)",
   "Create a method that can find all DOM elements of a certain element type (i.e. div, select) (don't resuse document.querySelector!)",

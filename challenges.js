@@ -20,6 +20,7 @@
 */
 
 module.exports = [
+  "", // Jan 1
   "",
   "",
   "",
@@ -42,8 +43,7 @@ module.exports = [
   "",
   "",
   "",
-  "",
-  "",
+  "", // Jan 24
   "Take a string of words and reverse each word. Bonus points if you don't touch punctuation.\n\nExamples:\nHello World -> olleH dlroW\nThis is a string. -> sihT si a gnirts.",
   "If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23.\nFind the sum of all the multiples of 3 or 5 below 1000",
   "Suppose you have a deck of cards. You can perfectly shuffle that list by cutting it at the halfway point, then interleaving the two halves by alternating back and forth between the cards.\n\nE.g. [1 2 3 4 5 6 7 8 9 10] ---> [6 1 7 2 8 3 9 4 10 5]",
@@ -153,7 +153,7 @@ module.exports = [
   "Create a function that will draw a letters on a HTML Canvas object",
   "Create a function that will replace a color inside a HTML Canvas object. Bonus points if you can demonstrate it with an image loaded into canvas",
   "Create a 20x20 random numbers and find the largest sum of adjacent numbers (up, down, left, right, or diagonally)",
-  "", // missed this day
+  "", // missed this day May 14th
   "Get docker installed and run the \"hello-world\" image! Follow the instructions to get the next one up and running for bonus points",
   "Get a postgres instance up and running and connect to it from an outside application",
   "Create a table, insert some data, and query the data back (use the postgres docker instance!)",
@@ -170,4 +170,21 @@ module.exports = [
   "Create a method that can find all DOM elements with a certain id (don't resuse document.querySelector!)",
   "Create a method that can find all DOM elements with a certain class (don't resuse document.querySelector!)",
   "Create a method that can find all DOM elements of a certain element type (i.e. div, select) (don't resuse document.querySelector!)",
+  "", // series of missed days May 31
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "", // June 7
+  "Craig would like a banana split, but he doesn't have the supplies. Make his lazy butt a shopping list.",
+  "Create a simple tic-tac-toe game. Play it with another person, loser buys lunch.",
+  "Build your own git constructor complete with add, commit, push, history. Extra credit for branches. \n\nconst git = new Git(); \ngit.add();\ngit.commit('message');\ngit.push();\ngit.log()",
+  "You want a get rich quick scheme. You decide the cryptocurrencies are in. Your challenge now is to make your own blockchain.\nhttps://medium.com/digital-alchemy-holdings/learn-build-a-javascript-blockchain-part-1-ca61c285821e",
+  "DnD is the next level. HTML5 makes drag and drop way easier. Create a web trash can where you can throw elements away.",
+  "Given a date string, write the long date with the correct Ordinal indicator(-st, -nd, -rd, -th). \n\nE.g. 2015-03-25 --> March 25th, 2015  (extra credit if you don't use a library like moment.js)",
+  "Return the number (count) of each vowel in the given string. We will consider a, e, i, o, and u as vowels for this challenge. The input string may contain upper and lower case letters, spaces and punctuation.",
+  "In DNA strings, symbols 'A' and 'T' are complements of each other, as 'C' and 'G'. Create a function that is given one side of the DNA as a string and returns the other complementary side.",
+  "Given an array, find the int that appears an odd number of times. There will always be only one integer that appears an odd number of times. \n\nE.g. [20,1,1,2,2,3,3,5,5,4,20,4,5] should return the int 5)",
 ];

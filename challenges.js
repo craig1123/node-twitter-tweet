@@ -179,12 +179,12 @@ module.exports = [
   "",
   "", // June 7
   "Craig would like a banana split, but he doesn't have the supplies. Make his lazy butt a shopping list.",
+  "Given a date string, write the long date with the correct Ordinal indicator(-st, -nd, -rd, -th). \n\nE.g. 2015-03-25 --> March 25th, 2015  (extra credit if you don't use a library like moment.js)",
+  "Given an array, find the int that appears an odd number of times. There will always be only one integer that appears an odd number of times. \n\nE.g. [20,1,1,2,2,3,3,5,5,4,20,4,5] should return the int 5)",
   "Create a simple tic-tac-toe game. Play it with another person, loser buys lunch.",
   "Build your own git constructor complete with add, commit, push, history. Extra credit for branches. \n\nconst git = new Git(); \ngit.add();\ngit.commit('message');\ngit.push();\ngit.log()",
   "You want a get rich quick scheme. You decide the cryptocurrencies are in. Your challenge now is to make your own blockchain.\nhttps://medium.com/digital-alchemy-holdings/learn-build-a-javascript-blockchain-part-1-ca61c285821e",
   "DnD is the next level. HTML5 makes drag and drop way easier. Create a web trash can where you can throw elements away.",
-  "Given a date string, write the long date with the correct Ordinal indicator(-st, -nd, -rd, -th). \n\nE.g. 2015-03-25 --> March 25th, 2015  (extra credit if you don't use a library like moment.js)",
   "Return the number (count) of each vowel in the given string. We will consider a, e, i, o, and u as vowels for this challenge. The input string may contain upper and lower case letters, spaces and punctuation.",
   "In DNA strings, symbols 'A' and 'T' are complements of each other, as 'C' and 'G'. Create a function that is given one side of the DNA as a string and returns the other complementary side.",
-  "Given an array, find the int that appears an odd number of times. There will always be only one integer that appears an odd number of times. \n\nE.g. [20,1,1,2,2,3,3,5,5,4,20,4,5] should return the int 5)",
 ];

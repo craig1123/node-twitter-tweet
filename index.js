@@ -1,5 +1,6 @@
 var twit = require('twit');
 var challenges = require('./challenges');
+var quotes = require('./quotes');
 var sendEmailToMyself = require('./emailCtrl');
 
 var Twitter = new twit({
@@ -27,11 +28,15 @@ Date.prototype.getDOY = function() {
 
 function post() {
   var date = new Date();
-  var status = challenges[date.getDOY() - 1];
+  var dayIndex = date.getDOY() - 1;
+  var status = challenges[dayIndex];
+  var quotesStatus = quotes[dayIndex];
 
   // No more challenges
   if (status) {
       status += "\n#365daysofcode";
+  } else if (quotesStatus) {
+      status = quotesStatus + "\n\n#365daysofcode";
   } else {
       status = "There are no more challenges available. Please make a Pull Request Here: https://github.com/craig1123/node-twitter-tweet/blob/master/challenges.js"
   }

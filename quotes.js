@@ -270,7 +270,7 @@ module.exports = [
   "Computer Science is no more about computers than astronomy is about telescopes. — Edsger Dijkstra",
   "There are only two kinds of languages: the ones people complain about and the ones nobody uses. — Bjarne Stroustrup",
   "Programs must be written for people to read, and only incidentally for machines to execute. - Harold Abelson",
-  "",
+  "Telling a programmer there's already a library to do X is like telling a songwriter there's already a song about love. — Pete Cordell",
   "",
   "",
   "",

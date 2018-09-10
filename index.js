@@ -1,5 +1,6 @@
 var twit = require('twit');
-var challenges = require('./challenges');
+// var challenges = require('./challenges'); // daily
+var weeklyChallenges = require('./weeklyChallenges');
 var quotes = require('./quotes');
 var sendEmailToMyself = require('./emailCtrl');
 
@@ -26,17 +27,30 @@ Date.prototype.getDOY = function() {
   return dayOfYear;
 };
 
+// get week number of the year
+function getWeekNumber(d) {
+    // Copy date so don't modify original
+    d = new Date(Date.UTC(d.getFullYear(), d.getMonth(), d.getDate()));
+    // Set to nearest Thursday: current date + 4 - current day number
+    // Make Sunday's day number 7
+    d.setUTCDate(d.getUTCDate() + 4 - (d.getUTCDay() || 7));
+    // Get first day of year
+    var yearStart = new Date(Date.UTC(d.getUTCFullYear(),0,1));
+    // Calculate full weeks to nearest Thursday
+    return Math.ceil((((d - yearStart) / 86400000) + 1) / 7);
+}
+
 function post() {
   var date = new Date();
+  var weekOfTheYear = getWeekNumber(date);
   var dayIndex = date.getDOY() - 1;
-  var status = challenges[dayIndex];
+  var status = weeklyChallenges[weekOfTheYear];
   var quotesStatus = quotes[dayIndex];
 
-  // No more challenges
   if (status) {
-      status += "\n#365daysofcode";
+      status += "\n#52weeksofcode";
   } else if (quotesStatus) {
-      status = quotesStatus + "\n\n#365daysofcode";
+      status = quotesStatus + "\n\n#52weeksofcode";
   } else {
       status = "There are no more challenges available. Please make a Pull Request Here: https://github.com/craig1123/node-twitter-tweet/blob/master/challenges.js"
   }
@@ -59,5 +73,7 @@ function post() {
   }
 }
 
-// post a tweet
-post();
+// if Monday, post a tweet
+if (new Date().getDay() === 1) {
+    post();
+}

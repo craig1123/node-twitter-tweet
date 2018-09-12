@@ -46,7 +46,7 @@ module.exports = [
     "This will come in handy: write a function that inserts a comma for every three numbers as the number grows larger. \n\nexample: 20000 --> 20,000",
     "Mastermind was a board game in the 70s https://en.wikipedia.org/wiki/Mastermind_(board_game). Generate a random mastermind problem. Extra credit - write a function that checks if a mastermind answer is valid",
     "Formatting time! Better the user experience by formatting the following as the user types: SSN 111-11-1111, phone (000) 111-1111",
-    "",
+    "Assume you have an array of objects that could contain a value with more array of objects and so on to ..n deep. Sort that an array of objects based on another array of objects. \n\n See https://repl.it/@craig1123/SortArrayData for data",
     "",
     "",
     "",
